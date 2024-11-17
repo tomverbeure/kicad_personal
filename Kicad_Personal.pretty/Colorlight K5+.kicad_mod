@@ -2692,7 +2692,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2686b81c-505d-47d3-bd14-a9e245e9393a")
 	)
-	(pad "J0" thru_hole circle
+	(pad "J1" thru_hole circle
 		(at -2.1 -14.18)
 		(size 1.7 1.7)
 		(drill 1)
@@ -2700,7 +2700,7 @@
 		(remove_unused_layers no)
 		(uuid "f6180bc4-614d-43c2-b063-81513cd55523")
 	)
-	(pad "J1" thru_hole circle
+	(pad "J2" thru_hole circle
 		(at -2.1 -16.72)
 		(size 1.7 1.7)
 		(drill 1)
@@ -2708,7 +2708,7 @@
 		(remove_unused_layers no)
 		(uuid "c049e432-c48a-45fc-b8b8-31b15f0e9372")
 	)
-	(pad "J2" thru_hole circle
+	(pad "J3" thru_hole circle
 		(at -2.1 -19.26)
 		(size 1.7 1.7)
 		(drill 1)
@@ -2716,7 +2716,7 @@
 		(remove_unused_layers no)
 		(uuid "ae3fd57c-7c21-4da2-8460-40b12d6c9a51")
 	)
-	(pad "J3" thru_hole circle
+	(pad "J4" thru_hole circle
 		(at -2.1 -21.8)
 		(size 1.7 1.7)
 		(drill 1)
