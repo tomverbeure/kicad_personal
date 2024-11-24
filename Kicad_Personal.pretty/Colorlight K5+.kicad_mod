@@ -84,6 +84,26 @@
 		(uuid "98ec00b0-ae41-450f-a0c4-deb1dc5dfe53")
 	)
 	(fp_line
+		(start -30.5 -38.25)
+		(end -30.5 -34.96)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff83596b-06a4-43dc-b9aa-1b93f82882db")
+	)
+	(fp_line
+		(start -28.85 -36.6)
+		(end -32.15 -36.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "489d149b-c1e7-47c6-be7d-1c0bc237bf08")
+	)
+	(fp_line
 		(start -26.9 -38)
 		(end -26.9 -33)
 		(stroke
@@ -1155,11 +1175,74 @@
 		(layer "F.CrtYd")
 		(uuid "3ffe92a6-8329-4669-993e-241964e8e5d4")
 	)
+	(fp_circle
+		(center -30.5 -36.6)
+		(end -27.207205 -36.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "008918d0-c023-4eb0-9935-ba56573c7a17")
+	)
+	(fp_text user "TMS"
+		(at -5.75 -16.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "073c7a07-55a9-41fb-8200-f25ae9fc38df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TDI"
+		(at -5.75 -18.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e353eb1-dc89-4713-b7c2-49f47cb56864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TCK"
+		(at -5.75 -13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "552efef1-3723-4f60-ab2e-b2e6c47621b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "JH1"
 		(at -26.5 -31 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6a04aba3-d5b4-4bee-8ea8-e05ed6de7057")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TDO"
+		(at -5.75 -21.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba0da26e-273c-451b-994c-ea76a7c68bf8")
 		(effects
 			(font
 				(size 1 1)
@@ -1194,7 +1277,7 @@
 	)
 	(pad "" thru_hole circle
 		(at -30.5 -36.6)
-		(size 7 7)
+		(size 6 6)
 		(drill 3.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -1202,7 +1285,7 @@
 	)
 	(pad "" thru_hole circle
 		(at -30.5 1)
-		(size 7 7)
+		(size 6 6)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -1238,7 +1321,7 @@
 	)
 	(pad "" thru_hole circle
 		(at 30 -36.6)
-		(size 7 7)
+		(size 6 6)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -1246,7 +1329,7 @@
 	)
 	(pad "" thru_hole circle
 		(at 30 1)
-		(size 7 7)
+		(size 6 6)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
